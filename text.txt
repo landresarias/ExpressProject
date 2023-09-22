@@ -1,0 +1,24 @@
+Express Installation and execution 
+
+- npm init --y
+
+- npm install -g express --save
+
+- npm install ejs
+
+- npm i --save-dev nodemon
+
+Open the package.json and change this:
+        "scripts": {
+            "test": "echo \"Error: no test specified\" && exit 1"
+        },
+    for this:
+        "scripts": {
+            "...Your Title...": "nodemon ...Your server name (.js)..."
+        },
+
+- npm run ...Your Title...
+- or: node server.js~
+
+- Open a web browser and type localhost: ...your server.js port...
+
